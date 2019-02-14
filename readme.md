@@ -32,17 +32,10 @@ In this exercise, we are going to create a project where we will have all the ba
 
 ### Iteration 0 | Initialize the project
 
-After forking and cloning the project, you will have to add a `starter_code/.env` file:
-
-```
-PORT=3000
-```
-
-And you have to install all the dependencies:
+You have to install all the dependencies:
 
 
 ```sh
-$ cd starter_code
 $ npm install
 ```
 
