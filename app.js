@@ -4,6 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const mongoose = require('mongoose');
+const user = require ('User');
 
 const indexRouter = require('./routes/index');
 
@@ -14,6 +15,8 @@ mongoose.connect('mongodb://localhost/basic-auth', {
   useNewUrlParser: true,
   reconnectTries: Number.MAX_VALUE
 });
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
